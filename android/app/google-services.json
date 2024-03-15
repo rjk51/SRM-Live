@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1039892070502",
+    "project_id": "srm-live-6d130",
+    "storage_bucket": "srm-live-6d130.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039892070502:android:f34cd5d7c24ff952892da7",
+        "android_client_info": {
+          "package_name": "com.example.srm_live"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgViVqO4wfD3s9uTOI_SeYaCNyEZ-V3DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
