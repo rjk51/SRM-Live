@@ -44,12 +44,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBbNkuF50rZmuqR5r-f9Uga0vyypsprqYU',
-    appId: '1:1039892070502:web:4675ecbab370430b892da7',
-    messagingSenderId: '1039892070502',
-    projectId: 'srm-live-6d130',
-    authDomain: 'srm-live-6d130.firebaseapp.com',
-    storageBucket: 'srm-live-6d130.appspot.com',
+    apiKey: "AIzaSyBbNkuF50rZmuqR5r-f9Uga0vyypsprqYU",
+    authDomain: "srm-live-6d130.firebaseapp.com",
+    projectId: "srm-live-6d130",
+    storageBucket: "srm-live-6d130.appspot.com",
+    messagingSenderId: "1039892070502",
+    appId: "1:1039892070502:web:4675ecbab370430b892da7"
   );
 
   static const FirebaseOptions android = FirebaseOptions(

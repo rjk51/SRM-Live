@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:srm_live/admin/components/square_tile.dart';
+import 'package:srm_live/components/square_tile.dart';
 import 'package:srm_live/authentication/auth_service.dart';
-import 'package:srm_live/pages/login.dart';
 
 class RegisterPage extends StatelessWidget {
   RegisterPage({super.key, required this.onTap});
@@ -94,14 +93,16 @@ class RegisterPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 20.0),
                       TextField(
+                        style: const TextStyle(color: Colors.white),
                         controller: _emailController,
                         decoration: const InputDecoration(
-                          labelText: 'Username',
+                          labelText: 'email',
                           border: OutlineInputBorder(),
                         ),
                       ),
                       const SizedBox(height: 10.0),
                       TextField(
+                        style: const TextStyle(color: Colors.white),
                         controller: _pwController,
                         obscureText: true,
                         decoration: const InputDecoration(
@@ -111,6 +112,7 @@ class RegisterPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 10.0),
                       TextField(
+                        style: const TextStyle(color: Colors.white),
                         controller: _confirmPwController,
                         obscureText: true,
                         decoration: const InputDecoration(

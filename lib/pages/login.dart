@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:srm_live/admin/components/square_tile.dart';
-import 'package:srm_live/pages/register.dart';
+import 'package:srm_live/components/square_tile.dart';
 import 'package:srm_live/authentication/auth_service.dart';
 
 class LoginPage extends StatelessWidget {
@@ -87,14 +86,16 @@ class LoginPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 20.0),
                       TextField(
+                        style: const TextStyle(color: Colors.white),
                         controller: _emailController,
                         decoration: const InputDecoration(
-                          labelText: 'Username',
+                          labelText: 'email',
                           border: OutlineInputBorder(),
                         ),
                       ),
                       const SizedBox(height: 10.0),
                       TextField(
+                        style: const TextStyle(color: Colors.white),
                         controller: _pwController,
                         obscureText: true,
                         decoration: const InputDecoration(

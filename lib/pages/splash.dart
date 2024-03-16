@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:srm_live/authentication/auth_gate.dart';
-import 'package:srm_live/pages/register.dart';
 
 class SplashPage extends StatelessWidget{
   const SplashPage({super.key});
