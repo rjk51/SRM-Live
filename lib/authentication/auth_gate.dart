@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:srm_live/components/nav_bar.dart';
 import 'package:srm_live/pages/home.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:srm_live/authentication/login_or_reg.dart';
@@ -14,9 +15,8 @@ class AuthGate extends StatelessWidget {
         builder: (context,snapshot) {
           //if the user is logged in
           if(snapshot.hasData){
-            return const HomePage();
-          }
-          
+            return const MyBottomNavigationBar();
+          }          
             
           else{
             return const LoginOrRegister();

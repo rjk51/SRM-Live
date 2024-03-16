@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'themes/light_mode.dart';
 
 import 'package:srm_live/pages/splash.dart';
 
@@ -19,11 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromARGB(255, 31, 218, 147)),
-        useMaterial3: true,
-      ),
+      theme: lightMode,
       home: const SplashPage(),
     );
   }
