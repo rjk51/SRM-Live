@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text('Card $index', style: const TextStyle(fontSize: 18)),
-                          const Icon(Icons.star, size: 24),
+                          Image.asset('assets/codingninjas.svg',width: 50,height: 50,)
                         ],
                       ),
                     ),

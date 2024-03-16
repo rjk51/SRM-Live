@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:srm_live/pages/event_register.dart';
 import 'package:srm_live/pages/home.dart';
 import 'package:srm_live/pages/menu_page.dart';
 import 'package:srm_live/pages/register.dart';
@@ -18,9 +19,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
 
   final List<Widget> _pages = [
     const HomePage(),
-    RegisterPage(
-      onTap: () {}
-    ),
+    const EventRegister(),
     const MenuPage(),
   ];
 
